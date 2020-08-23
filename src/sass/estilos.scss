@@ -17,11 +17,12 @@
 @import "why";
 @import "lastestArticles";
 @import "footer";
-body{
+body {
     font-family: 'Public Sans', sans-serif;
     margin: 0;
     color: var(--grayBlue);
-}
+    overflow-x: hidden;
+  }
 a{
     text-decoration: none;
 }
@@ -34,13 +35,13 @@ a{
     display: none !important;
 }
 
-.wrapper{
+.wrapper {
     padding: 0 var(--wrapperSpace);
     max-width: calc(1115px + 1.5em);
     margin: auto;
     width: 100%;
     box-sizing: border-box;
-}
+  }
 @mixin title {
         font-size: 2.2em;
         color: var(--darkBlue);
