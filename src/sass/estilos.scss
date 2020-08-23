@@ -36,6 +36,9 @@ a{
 
 .wrapper{
     padding: 0 var(--wrapperSpace);
+    max-width: 1115px;
+    margin: auto;
+    width: 100%;
 }
 @mixin title {
         font-size: 2.2em;
